@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0a1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -29,12 +29,15 @@
 		<dict>
 			<key>End</key>
 			<array>
-				<string>extensions/quick_reply.js</string>
+				<string>extensions/buddy_icon_reply.js</string>
+				<string>extensions/short_link.js</string>
+				<string>extensions/on_black.js</string>
 			</array>
 			<key>Start</key>
 			<array>
 				<string>libraries/setting_externalizer.js</string>
 				<string>libraries/flickr_localizer.js</string>
+				<string>libraries/unsafe_window_handler.js</string>
 			</array>
 		</dict>
 	</dict>

@@ -1,7 +1,9 @@
-getSettings(['quickReply'], 'quickReply');
+// http://www.flickr.com/groups/flickrhacks/discuss/72157605959212132/
 
-function quickReply(settings) {
-  if (settings['quickReply'] == true) {
+getSettings(['buddyIconReply'], 'buddyIconReply');
+
+function buddyIconReply(settings) {
+  if (settings['buddyIconReply'] == true) {
     textareas = document.evaluate("//textarea", document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
     textArray = new Array();
     messageIndex = 0;
@@ -21,7 +23,6 @@ function quickReply(settings) {
 	  	textArray[i].selectionEnd = textArray[i].value.length;
 	  	textArray[i].focus();
 	  }
-    
     
 	  function imgItAuto (imgSRC, i) {
 	  	if (imgSRC != null) {
