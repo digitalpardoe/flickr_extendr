@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Global Page</title>
+<script type="text/javascript">
+  function getSettings(key, event) {
+    settings = key.settings;
+    for (var i in settings) {
+      settings[i].val = safari.extension.settings.getItem(settings[i].key);
+    }
+    event.target.page.dispatchMessage("theAnswer", key);
+  }
+
+  function respondToMessage(theMessageEvent) {
+	  if (theMessageEvent.name === "getSettings") {
+		  var startVal = theMessageEvent.message;
+		  getSettings(startVal, theMessageEvent);
+	  }
+  }
+
+  safari.application.addEventListener("message", respondToMessage, false);
+</script>
+</head>
+<body> </body>
+</html>
