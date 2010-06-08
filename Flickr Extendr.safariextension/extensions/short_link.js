@@ -8,18 +8,16 @@ function shortLink(settings) {
     var rev = document.querySelector("link[rev='canonical']");
     if (rev) {
       if (document.getElementById("button_bar")) {
-
         pid = location.pathname.split('/')[3];
-
         var containerA = document.createElement("li");
-        containerA.setAttribute("class","Stats");
+        containerA.setAttribute("class","Stats stats-featured");
         var linkA = 'Short link: ';
-        linkA    += '<a href="' + rev.href + '">' + rev.href + '</a>';
+        linkA    += '<a href="' + rev.href + '" class="Plain">' + rev.href + '</a>';
         containerA.innerHTML = linkA;
-
         addlInfo = document.evaluate("//li[contains(@class,'Stats')]", document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null).snapshotItem(0).parentNode;  // This broke before, let's see
         addlInfo.appendChild(containerA);
       }
     }
+    
   }
 }

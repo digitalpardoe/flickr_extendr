@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Flickr Extendr</string>
 	<key>CFBundleIdentifier</key>
-	<string>uk.co.digitalpardoe.flickrextendr</string>
+	<string>uk.co.digitalpardoe.safari.flickrextendr</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
