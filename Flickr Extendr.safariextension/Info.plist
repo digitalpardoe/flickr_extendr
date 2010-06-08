@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>digital:pardoe</string>
+	<string>Interpunct</string>
 	<key>CFBundleDisplayName</key>
 	<string>Flickr Extendr</string>
 	<key>CFBundleIdentifier</key>
-	<string>uk.co.digitalpardoe.safari.flickrextendr</string>
+	<string>net.interpunct.safari.flickrextendr</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -56,6 +56,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>http://digitalpardoe.co.uk/</string>
+	<string>http://interpunct.net/</string>
 </dict>
 </plist>
