@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Flickr Extendr</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.interpunct.safari.flickrextendr</string>
+	<string>net.interpunct.safari.FlickrExtendr</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>

@@ -8,7 +8,7 @@
 		<key>Key</key>
 		<string>buddyIconReply</string>
 		<key>Title</key>
-		<string>Buddy Icon Reply</string>
+		<string>Quick Comment Reply</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>
@@ -28,7 +28,7 @@
 		<key>Key</key>
 		<string>onBlack</string>
 		<key>Title</key>
-		<string>View On Black</string>
+		<string>View On Black Links</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>
