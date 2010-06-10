@@ -55,6 +55,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://interpunct.net/resources/UpdateManifest.plist</string>
 	<key>Website</key>
 	<string>http://interpunct.net/</string>
 </dict>
