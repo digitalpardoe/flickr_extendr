@@ -32,6 +32,7 @@
 				<string>extensions/buddy_icon_reply.js</string>
 				<string>extensions/short_link.js</string>
 				<string>extensions/on_black.js</string>
+				<string>extensions/referer_in_comments.js</string>
 			</array>
 			<key>Start</key>
 			<array>
