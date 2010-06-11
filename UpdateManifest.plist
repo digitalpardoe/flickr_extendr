@@ -7,7 +7,7 @@
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>net.interpunct.safari.FlickrExtendr</string>
-			<key>Team Identifier</key>
+			<key>Developer Identifier</key>
 			<string>88759ET29P</string>
 			<key>CFBundleVersion</key>
 			<string>1.0a1</string>
