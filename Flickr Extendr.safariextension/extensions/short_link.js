@@ -1,5 +1,3 @@
-// http://userscripts.org/scripts/show/63457
-
 getSettings(['shortLink'], 'shortLink');
 
 function shortLink(settings) {
