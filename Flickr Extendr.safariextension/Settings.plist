@@ -6,39 +6,9 @@
 		<key>DefaultValue</key>
 		<true/>
 		<key>Key</key>
-		<string>buddyIconReply</string>
-		<key>Title</key>
-		<string>Quick Comment Reply</string>
-		<key>Type</key>
-		<string>CheckBox</string>
-	</dict>
-	<dict>
-		<key>DefaultValue</key>
-		<true/>
-		<key>Key</key>
 		<string>shortLink</string>
 		<key>Title</key>
 		<string>Short Link Display</string>
-		<key>Type</key>
-		<string>CheckBox</string>
-	</dict>
-	<dict>
-		<key>DefaultValue</key>
-		<true/>
-		<key>Key</key>
-		<string>onBlack</string>
-		<key>Title</key>
-		<string>View On Black Links</string>
-		<key>Type</key>
-		<string>CheckBox</string>
-	</dict>
-	<dict>
-		<key>DefaultValue</key>
-		<true/>
-		<key>Key</key>
-		<string>refererInComments</string>
-		<key>Title</key>
-		<string>Referer In Comments</string>
 		<key>Type</key>
 		<string>CheckBox</string>
 	</dict>
