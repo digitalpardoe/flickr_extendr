@@ -1,5 +1,6 @@
 Flickr Extendr
 ==============
+Add a little more userscript to your Flickr.
 
 About
 -----
